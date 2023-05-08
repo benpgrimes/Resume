@@ -1,5 +1,9 @@
 # Resume
 
+`src/app/app.component.html` is the resume html file where all the information is included. Most everything else is just wrapping.
+
+The resulting pdf can be found in the pdf folder.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
 ## Development server
