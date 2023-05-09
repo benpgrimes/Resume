@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~material-icons/iconfont/material-icons.css';
+
+img {
+    max-width: 128px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+.first-column {
+    margin-bottom: 110px !important;
+}
+
+.section-header {
+  background-color: lightblue;
+  border-radius: 25px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+li { 
+  text-align: justify;
+}

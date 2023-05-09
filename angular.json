@@ -30,6 +30,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/blueprint-css/dist/blueprint.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -93,12 +94,28 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/blueprint-css/dist/blueprint.css",
               "src/styles.scss"
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f5d9ed5f-f771-4530-9d15-6c34b77e896e",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
