@@ -13,7 +13,6 @@ img {
 
 .section-header {
   background-color: lightblue;
-  border-radius: 25px;
   padding-left: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -23,4 +22,12 @@ img {
 
 li { 
   text-align: justify;
+}
+
+.description {
+  text-align: justify;
+}
+
+.align-fix {
+  margin-top: 17px
 }
